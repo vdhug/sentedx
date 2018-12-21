@@ -84,6 +84,9 @@ DATABASES = {
         'PASSWORD': 'a817aea20ac006926ee0a25d029739de892437b9059a8fda6debcc4361f4ced4',
         'HOST': 'ec2-174-129-25-182.compute-1.amazonaws.com',
         'PORT': '5432',
+        'TEST': {
+            'NAME': 'travis_ci_test',
+        },
     }
 }
 
