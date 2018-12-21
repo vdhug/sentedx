@@ -1,0 +1,11 @@
+{% extends "personal/base.html" %}
+
+{% block body %}
+	
+	{% for c in content %}
+		<p>{{c}}</p>
+	{% endfor %}
+
+	{% include "personal/includes/footer.html" %}
+
+{% endblock %}
